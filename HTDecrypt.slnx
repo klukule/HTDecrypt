@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="HTCrypto/HTCrypto.csproj" />
+  <Project Path="HTDecrypt/HTDecrypt.csproj" />
+  <Project Path="HTEncrypt/HTEncrypt.csproj" />
+  <Project Path="HTLogTail/HTLogTail.csproj" />
+</Solution>

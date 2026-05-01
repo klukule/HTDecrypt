@@ -1,0 +1,41 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+publish/
+artifacts/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.swp
+
+# Rider / Resharper
+.idea/
+*.DotSettings.user
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local NuGet caches / global packages folder if relocated
+.nuget/
+packages/
+
+# Test artifacts
+TestResults/
+coverage*/
+*.coverage
+*.coveragexml
+
+# Misc
+*.log
+*.tlog
