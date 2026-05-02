@@ -22,10 +22,10 @@ C:\path\to\Engine.decrypted.ini
 
 ```cmd
 HTEncrypt.exe "C:\path\to\Engine.txt"
-HTEncrypt.exe --key=ios "C:\path\to\IOSConfig.ini"
+HTEncrypt.exe --key=windowscn "C:\path\to\Config.ini"
 ```
 
-Default key is Windows (AES-256). Use `--key=ios` for AES-128 iOS-format files.
+Default key is Windows (global). Use `--key=windowscn` for CN client.
 
 ### Live tail
 
@@ -43,6 +43,6 @@ Press `Ctrl+C` to exit.
 
 ## Keys
 
-Built-in keys are for iOS (AES-128) and Windows (AES-256) although iOS one is unconfirmed... if you have binaries for other platforms (such as PS5, Android or MAC) feel free to open an issue and attach the binary so we can add support for other platforms as well - ideally also include config file or log file so we can confirm decryption works fine
+Built-in keys are for Windows global and CN clients... if you have binaries for other platforms (such as PS5, Android or MAC) feel free to open an issue and attach the binary so we can add support for other platforms as well - ideally also include config file or log file so we can confirm decryption works fine
 
-The keys were dumped from 1.0.8 version and are confirmed working as of version 1.0.9 on windows
+The keys were dumped from 1.0.8 version and are confirmed working as of version 1.0.9 on windows.

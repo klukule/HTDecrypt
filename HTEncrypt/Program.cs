@@ -117,7 +117,7 @@ internal static class Program
     {
         Console.WriteLine("Drag and drop plaintext files onto this exe (uses default Windows key).");
         Console.WriteLine();
-        Console.WriteLine("CLI:  HTEncrypt.exe [--key=windows|ios] <file1> [file2] ...");
+        Console.WriteLine("CLI:  HTEncrypt.exe [--key=windows|windowscn] <file1> [file2] ...");
         Console.WriteLine();
         Console.WriteLine("Default key when none specified: " + DefaultKey);
         Console.WriteLine("Available keys: " + string.Join(", ", Enum.GetNames<KeyId>()));
